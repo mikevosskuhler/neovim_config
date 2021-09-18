@@ -20,5 +20,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline'
     " Comment out lines easily
     Plug 'tpope/vim-commentary'
-
+    " Markdown live preview
+    Plug 'shime/vim-livedown'
+    " Surround selection in characters
+    Plug 'tpope/vim-surround'    
 call plug#end()
